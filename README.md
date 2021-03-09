@@ -9,3 +9,8 @@ It is present in router and it is also used in  Docker, Kubernetes, AWS and etc.
 
 Idempotency: Idempotence is talked about a lot in the context of "RESTful" web services. Basically, if making multiple identical requests has the same effect as making a single request it is idempotency.
      
+## TIL: 08-03-2021
+
+Interface vs abstract class in Java 
+- When to use what?
+- Interfaces can be used if we want a full implementation and use abstract classes when you want partial pieces for your design. 
