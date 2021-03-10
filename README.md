@@ -17,7 +17,6 @@ Interface vs abstract class in Java
 
 ## TIL: 11-03-2021
 
-### Java context 
 - Problem : You are calling resource even when it is not needed which created the side effect like overriding in db. 
 - Solution: Can be tackled by using supplier. This was due to incorrect usage of optional (https://www.baeldung.com/java-optional)
 - Optional: orElse() and orElseGet(). orElse() takes concrete value and orElseGet() takes supplier. 
