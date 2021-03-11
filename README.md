@@ -15,10 +15,14 @@ Interface vs abstract class in Java
 - When to use what?
 - Interfaces can be used if we want a full implementation and use abstract classes when you want partial pieces for your design. 
 
-## TIL: 11-03-2021
+## TIL: 10-03-2021
 
 - Problem : You are calling resource even when it is not needed which created the side effect like overriding in db. 
 - Solution: Can be tackled by using supplier. This was due to incorrect usage of optional (https://www.baeldung.com/java-optional)
 - Optional: orElse() and orElseGet(). orElse() takes concrete value and orElseGet() takes supplier. 
 - Lazy Evaluation using supplier: You pass function(lambda) instead of concrete values. Whenever you need the value you call the supplier and it computes and 
 then returns the value.
+
+## TIL: 11-03-2021 
+Came across CGI (common gateway Interface). CGI led to developmemt of WSGI, servlet
+https://www.geeksforgeeks.org/common-gateway-interface-cgi/ 
