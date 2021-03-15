@@ -26,3 +26,10 @@ then returns the value.
 ## TIL: 11-03-2021 
 Came across CGI (common gateway Interface). CGI led to developmemt of WSGI, servlet
 https://www.geeksforgeeks.org/common-gateway-interface-cgi/ 
+
+## TIL: 15-03-2021
+
+- Docker compose override : https://docs.docker.com/compose/extends/ 
+Problem : Port forwarding, concurrent CI was portfowarding to localhost concurrently which led to `port already occupied issue`. 
+Solution : With docker-compose override for CI, you will be using the docker virtual namespace only.
+- tail -f /dev/null to run container indefinitely 
