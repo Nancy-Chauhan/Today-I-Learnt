@@ -37,6 +37,6 @@ Solution : With docker-compose override for CI, you will be using the docker vir
 
 - tail -f /dev/null to run container indefinitely 
 
-## TIL: 
+## TIL: 16-03-2021
 Retry and Resiliency: 
 Network calls are most likely to fail so putting retry on particular peice of code which is most likely to fail is the apt way.
