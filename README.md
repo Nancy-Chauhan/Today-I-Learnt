@@ -36,3 +36,7 @@ Problem : Port forwarding, concurrent CI was portfowarding to localhost concurre
 Solution : With docker-compose override for CI, you will be using the docker virtual namespace only.
 
 - tail -f /dev/null to run container indefinitely 
+
+## TIL: 
+Retry and Resiliency: 
+Network calls are most likely to fail so putting retry on particular peice of code which is most likely to fail is the apt way.
