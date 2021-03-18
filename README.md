@@ -40,3 +40,8 @@ Solution : With docker-compose override for CI, you will be using the docker vir
 ## TIL: 16-03-2021
 Retry and Resiliency: 
 Network calls are most likely to fail so putting retry on particular peice of code which is most likely to fail is the apt way.
+
+## TIL: 18-03-2021
+Database Transaction: A transaction is a unit of work that you want to treat as "a whole." It has to either happen in full or not at all. 
+
+ACID = Atomicity, Consistency, Isolation, Durability 
