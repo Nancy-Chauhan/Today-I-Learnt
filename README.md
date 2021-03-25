@@ -45,3 +45,8 @@ Network calls are most likely to fail so putting retry on particular peice of co
 Database Transaction: A transaction is a unit of work that you want to treat as "a whole." It has to either happen in full or not at all. 
 
 ACID = Atomicity, Consistency, Isolation, Durability 
+
+## TIL: 24-03-2021
+
+I have been recently working around CQRS. 
+Command-Query Responsibility Separation or CQRS is a simple architectural paradigm. It dictates that we should separate our system in two conceptually different parts. There is the command side, also known as the write side, which changes the state of the system via updates, deletes, etc. and the query side or the read side which only queries the state (presenting the information to the user or other modules of the system). Will write a detailed blog on this. 
