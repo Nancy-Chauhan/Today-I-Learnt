@@ -50,3 +50,14 @@ ACID = Atomicity, Consistency, Isolation, Durability
 
 I have been recently working around CQRS. 
 Command-Query Responsibility Separation or CQRS is a simple architectural paradigm. It dictates that we should separate our system in two conceptually different parts. There is the command side, also known as the write side, which changes the state of the system via updates, deletes, etc. and the query side or the read side which only queries the state (presenting the information to the user or other modules of the system). Will write a detailed blog on this. 
+
+## TIL: 10-04-2021
+
+Fan-In vs Fan-out: 
+Fan-in refers to the number of higher-level modules that directly call the module, while fan-out refers to the number of lower-level modules directly called by the module 
+
+- Fan in Example : Collect many tasks from smaller distribution points and combine them to larger tasks i.e courier system 
+
+- One use case I can think of is fan-out write/read.
+
+- For example, if you tweet and Twitter delivers that to all the subscribers feeds as soon as it is written (fan-out write). Or a feed service that waits until users are actually consuming the feed, at that time it looks for posts that have been written that this user is eligible to read (fan-out read). 
