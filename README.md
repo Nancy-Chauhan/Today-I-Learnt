@@ -61,3 +61,8 @@ Fan-in refers to the number of higher-level modules that directly call the modul
 - One use case I can think of is fan-out write/read.
 
 - For example, if you tweet and Twitter delivers that to all the subscribers feeds as soon as it is written (fan-out write). Or a feed service that waits until users are actually consuming the feed, at that time it looks for posts that have been written that this user is eligible to read (fan-out read). 
+
+
+## How To Harden the Security of Your Production Django Project
+
+https://www.digitalocean.com/community/tutorials/how-to-harden-your-production-django-project 
