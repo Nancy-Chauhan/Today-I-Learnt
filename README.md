@@ -66,3 +66,9 @@ Fan-in refers to the number of higher-level modules that directly call the modul
 ### How To Harden the Security of Your Production Django Project
 
 https://www.digitalocean.com/community/tutorials/how-to-harden-your-production-django-project 
+
+## TIL: 13-04-2021
+
+SQLite strives to provide local data storage for individual applications and devices. SQLite is a good fit for use in cellphones, set-top boxes, televisions, game consoles, cameras, watches, kitchen appliances, thermostats, automobiles, machine tools, airplanes, remote sensors, drones, medical devices, and robots: the "internet of things". For device-local storage and testing use SQLite 
+
+https://sqlite.org/whentouse.html 
