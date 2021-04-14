@@ -72,3 +72,8 @@ https://www.digitalocean.com/community/tutorials/how-to-harden-your-production-d
 SQLite strives to provide local data storage for individual applications and devices. SQLite is a good fit for use in cellphones, set-top boxes, televisions, game consoles, cameras, watches, kitchen appliances, thermostats, automobiles, machine tools, airplanes, remote sensors, drones, medical devices, and robots: the "internet of things". For device-local storage and testing use SQLite 
 
 https://sqlite.org/whentouse.html 
+
+## TIL: 14-04-2021
+
+- I came across a cool tool for schema design: https://www.dbdesigner.net/ 
+- Learnt about various Software devloper hacks for productivity (Will draft a blog on this) https://twitter.com/_nancychauhan/status/1382307259854716931 
