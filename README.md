@@ -77,3 +77,10 @@ https://sqlite.org/whentouse.html
 
 - I came across a cool tool for schema design: https://www.dbdesigner.net/ 
 - Learnt about various Software devloper hacks for productivity (Will draft a blog on this) https://twitter.com/_nancychauhan/status/1382307259854716931 
+
+## TIL: 16-04-2021
+
+- Blog on Top 10 Productive Hacks for Software Developers : https://medium.com/@_nancychauhan/top-10-productive-hacks-for-software-developers-c0feb8ca8dab 
+- Read amazing blog on How to Run Effective 1:1s https://refactoring.fm/p/how-to-run-effective-11s-?r=3dhy0&utm_campaign=post&utm_medium=email&utm_source=copy
+- Good resource on `The Architecture of Open Source Applications`: http://aosabook.org/en/index.html 
+
