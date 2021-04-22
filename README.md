@@ -84,3 +84,15 @@ https://sqlite.org/whentouse.html
 - Read amazing blog on How to Run Effective 1:1s https://refactoring.fm/p/how-to-run-effective-11s-?r=3dhy0&utm_campaign=post&utm_medium=email&utm_source=copy
 - Good resource on `The Architecture of Open Source Applications`: http://aosabook.org/en/index.html 
 
+
+## TIL: 20-04-2021
+
+- How Serializers works in Django Rest Framework ?
+- Reference: https://www.django-rest-framework.org/api-guide/serializers/
+- MySQL root password change
+```
+SET PASSWORD FOR 'root'@'localhost' = PASSWORD('mypass');
+FLUSH PRIVILEGES;
+```
+
+
