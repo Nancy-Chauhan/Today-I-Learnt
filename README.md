@@ -95,4 +95,25 @@ SET PASSWORD FOR 'root'@'localhost' = PASSWORD('mypass');
 FLUSH PRIVILEGES;
 ```
 
+## TIL: 22-04-2021
 
+- cron expressions: https://crontab.guru/#30*_*_*_* This is a good place for finding out cron schedule 
+- https://medium.com/@yedjoe/celery-4-periodic-task-in-django-9f6b5a8c21c7 : Good reference for setting up Periodic task in django. You can create a 
+cron scheduler with this for periodic tasks.
+- Celery Beat Schedule: 
+```
+from celery.schedules import crontab
+# Other Celery settings
+CELERY_BEAT_SCHEDULE = {
+    'task-number-one': {
+        'task': 'app1.tasks.task_number_one',
+        'schedule': crontab(minute=59, hour=23),
+        'args': (*args)
+    },
+    'task-number-two': {
+        'task': 'app2.tasks.task_number_two',
+        'schedule': crontab(minute=0, hour='*/3,10-19'),
+        'args': (*args)
+    }
+}
+```
