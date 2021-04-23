@@ -99,7 +99,7 @@ FLUSH PRIVILEGES;
 
 - cron expressions: https://crontab.guru/#30*_*_*_* This is a good place for finding out cron schedule 
 - https://medium.com/@yedjoe/celery-4-periodic-task-in-django-9f6b5a8c21c7 : Good reference for setting up Periodic task in django. You can create a 
-cron scheduler with this for periodic tasks.
+cron scheduler with this for periodic tasks using celery beat (https://docs.celeryproject.org/en/stable/userguide/periodic-tasks.html#:~:text=celery%20beat%20is%20a%20scheduler,entries%20in%20a%20SQL%20database.)
 - Celery Beat Schedule: 
 ```
 from celery.schedules import crontab
