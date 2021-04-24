@@ -117,3 +117,8 @@ CELERY_BEAT_SCHEDULE = {
     }
 }
 ```
+# TIL: 24/04/2021
+
+- Use webp instead of png and jpg/jpeg for hosting images in website. It improves the performance.
+- Using webp I reduced download time of my website from 30 sec to 3 sec. 
+- Use https://web.dev/measure/ to measure the site performance. It also gives the suggestion for improvement.
