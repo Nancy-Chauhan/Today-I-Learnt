@@ -122,3 +122,8 @@ CELERY_BEAT_SCHEDULE = {
 - Use webp instead of png and jpg/jpeg for hosting images in website. It improves the performance.
 - Using webp I reduced download time of my website from 30 sec to 3 sec. 
 - Use https://web.dev/measure/ to measure the site performance. It also gives the suggestion for improvement.
+
+# TIL: 27/04/2021
+
+- New blog: https://medium.com/@_nancychauhan/introduction-to-message-queue-build-a-newsletter-app-using-django-celery-and-rabbitmq-in-30-min-6d484162391d 
+
