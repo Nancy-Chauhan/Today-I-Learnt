@@ -127,3 +127,6 @@ CELERY_BEAT_SCHEDULE = {
 
 - New blog: https://medium.com/@_nancychauhan/introduction-to-message-queue-build-a-newsletter-app-using-django-celery-and-rabbitmq-in-30-min-6d484162391d 
 
+#TIL: 28/04/2021
+
+- `watch -n 1 curl -vvv 192.168.64.3` Repeats the curl indefintely 
