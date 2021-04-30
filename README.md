@@ -136,3 +136,4 @@ CELERY_BEAT_SCHEDULE = {
 - A Correlation ID, also known as a Transit ID, is a unique identifier value that is attached to requests and messages that allow reference to a particular transaction or event chain 
 - Correlation IDs is a very good cocnept if you want to improve your logging and distributing tracing 
 - Also there are tools like Zipkin and jaegar that help if you have a correlation ID
+- Jaegar + loki is very helpful in debugging
