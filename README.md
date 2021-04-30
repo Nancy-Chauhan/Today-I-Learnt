@@ -130,3 +130,9 @@ CELERY_BEAT_SCHEDULE = {
 ## TIL: 28/04/2021
 
 - `watch -n 1 curl -vvv 192.168.64.3` Repeats the curl indefintely 
+
+## TIL: 30/04/2021
+
+- A Correlation ID, also known as a Transit ID, is a unique identifier value that is attached to requests and messages that allow reference to a particular transaction or event chain 
+- Correlation IDs is a very good cocnept if you want to improve your logging and distributing tracing 
+- Also there are tools like Zipkin and jaegar that help if you have a correlation ID
