@@ -137,3 +137,9 @@ CELERY_BEAT_SCHEDULE = {
 - Correlation IDs is a very good cocnept if you want to improve your logging and distributing tracing 
 - Also there are tools like Zipkin and jaegar that help if you have a correlation ID
 - Jaegar + loki is very helpful in debugging
+
+## TIL: 10/05/2021
+
+- Database normalisation
+- Removal of duplicated data form db 
+- It is used for optimising write operation
