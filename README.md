@@ -143,3 +143,9 @@ CELERY_BEAT_SCHEDULE = {
 - Database normalisation
 - Removal of duplicated data form db 
 - It is used for optimising write operation
+
+## TIL: 13/05/2021
+
+- Request hedging https://medium.com/swlh/hedged-requests-tackling-tail-latency-9cea0a05f577 
+- Exception handling: Checked and unchecked excpetions and how it propagates
+- Saga: (used in CQRS) It is an orchestrator for multiple sub commands or sub events.
