@@ -149,3 +149,7 @@ CELERY_BEAT_SCHEDULE = {
 - Request hedging https://medium.com/swlh/hedged-requests-tackling-tail-latency-9cea0a05f577 
 - Exception handling: Checked and unchecked excpetions and how it propagates
 - Saga: (used in CQRS) It is an orchestrator for multiple sub commands or sub events.
+
+## TIL: 28/05/2021
+
+- On call learning: Avoid long running tasks in database transaction ( for example file download, computation and etc ) 
