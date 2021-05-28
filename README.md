@@ -153,3 +153,4 @@ CELERY_BEAT_SCHEDULE = {
 ## TIL: 28/05/2021
 
 - On call learning: Avoid long running tasks in database transaction ( for example file download, computation and etc ) 
+- It might lock the table 
