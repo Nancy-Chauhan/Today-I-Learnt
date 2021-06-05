@@ -154,3 +154,10 @@ CELERY_BEAT_SCHEDULE = {
 
 - On call learning: Avoid long running tasks in database transaction ( for example file download, computation and etc ) 
 - It might lock the table 
+
+## TIL: 5/06/2021
+
+- API optimisation
+- Serialisation is an expensive process
+- Avoid doing serialisation in between. Try at response level
+- lock mechanism - Instead of depending on db checks use another mechanism locks
