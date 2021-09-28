@@ -161,3 +161,10 @@ CELERY_BEAT_SCHEDULE = {
 - Serialisation is an expensive process
 - Avoid doing serialisation in between. Try at response level
 - lock mechanism - Instead of depending on db checks use another mechanism locks
+
+
+
+## TIL: 28/09/2021
+
+- Long time no see :P 
+- Blog on loadbalancers : https://medium.com/@_nancychauhan/loadbalancing-a0e805baea37 
