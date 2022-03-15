@@ -168,3 +168,10 @@ CELERY_BEAT_SCHEDULE = {
 
 - Long time no see :P 
 - Blog on loadbalancers : https://medium.com/@_nancychauhan/loadbalancing-a0e805baea37 
+
+## TIL: 15/03/2022
+
+- Long time no see:P (need to be more consistent here)
+- Learnt about various things past few months at zeotap
+- Tech I was involved with -> CDF pipeline, play framework, end-end product delivery 
+- I will write in detail about observability in data ingestion
